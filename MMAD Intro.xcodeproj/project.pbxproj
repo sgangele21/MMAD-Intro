@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DDFD7C1E75CEB600E33883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DDFD7B1E75CEB600E33883 /* AppDelegate.swift */; };
+		76DDFD7E1E75CEB600E33883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DDFD7D1E75CEB600E33883 /* ViewController.swift */; };
+		76DDFD811E75CEB600E33883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DDFD7F1E75CEB600E33883 /* Main.storyboard */; };
+		76DDFD841E75CEB600E33883 /* MMAD_Intro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DDFD821E75CEB600E33883 /* MMAD_Intro.xcdatamodeld */; };
+		76DDFD861E75CEB600E33883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DDFD851E75CEB600E33883 /* Assets.xcassets */; };
+		76DDFD891E75CEB600E33883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DDFD871E75CEB600E33883 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76DDFD781E75CEB600E33883 /* MMAD Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MMAD Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DDFD7B1E75CEB600E33883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76DDFD7D1E75CEB600E33883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76DDFD801E75CEB600E33883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DDFD831E75CEB600E33883 /* MMAD_Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMAD_Intro.xcdatamodel; sourceTree = "<group>"; };
+		76DDFD851E75CEB600E33883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DDFD881E75CEB600E33883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76DDFD8A1E75CEB600E33883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DDFD751E75CEB600E33883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DDFD6F1E75CEB600E33883 = {
+			isa = PBXGroup;
+			children = (
+				76DDFD7A1E75CEB600E33883 /* MMAD Intro */,
+				76DDFD791E75CEB600E33883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DDFD791E75CEB600E33883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DDFD781E75CEB600E33883 /* MMAD Intro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DDFD7A1E75CEB600E33883 /* MMAD Intro */ = {
+			isa = PBXGroup;
+			children = (
+				76DDFD7B1E75CEB600E33883 /* AppDelegate.swift */,
+				76DDFD7D1E75CEB600E33883 /* ViewController.swift */,
+				76DDFD7F1E75CEB600E33883 /* Main.storyboard */,
+				76DDFD851E75CEB600E33883 /* Assets.xcassets */,
+				76DDFD871E75CEB600E33883 /* LaunchScreen.storyboard */,
+				76DDFD8A1E75CEB600E33883 /* Info.plist */,
+				76DDFD821E75CEB600E33883 /* MMAD_Intro.xcdatamodeld */,
+			);
+			path = "MMAD Intro";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DDFD771E75CEB600E33883 /* MMAD Intro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DDFD8D1E75CEB600E33883 /* Build configuration list for PBXNativeTarget "MMAD Intro" */;
+			buildPhases = (
+				76DDFD741E75CEB600E33883 /* Sources */,
+				76DDFD751E75CEB600E33883 /* Frameworks */,
+				76DDFD761E75CEB600E33883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMAD Intro";
+			productName = "MMAD Intro";
+			productReference = 76DDFD781E75CEB600E33883 /* MMAD Intro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DDFD701E75CEB600E33883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sahil Gangele";
+				TargetAttributes = {
+					76DDFD771E75CEB600E33883 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76DDFD731E75CEB600E33883 /* Build configuration list for PBXProject "MMAD Intro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DDFD6F1E75CEB600E33883;
+			productRefGroup = 76DDFD791E75CEB600E33883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DDFD771E75CEB600E33883 /* MMAD Intro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DDFD761E75CEB600E33883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DDFD891E75CEB600E33883 /* LaunchScreen.storyboard in Resources */,
+				76DDFD861E75CEB600E33883 /* Assets.xcassets in Resources */,
+				76DDFD811E75CEB600E33883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DDFD741E75CEB600E33883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DDFD7E1E75CEB600E33883 /* ViewController.swift in Sources */,
+				76DDFD841E75CEB600E33883 /* MMAD_Intro.xcdatamodeld in Sources */,
+				76DDFD7C1E75CEB600E33883 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76DDFD7F1E75CEB600E33883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DDFD801E75CEB600E33883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76DDFD871E75CEB600E33883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DDFD881E75CEB600E33883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76DDFD8B1E75CEB600E33883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DDFD8C1E75CEB600E33883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DDFD8E1E75CEB600E33883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MMAD Intro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMAD-Intro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76DDFD8F1E75CEB600E33883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MMAD Intro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.MMAD-Intro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DDFD731E75CEB600E33883 /* Build configuration list for PBXProject "MMAD Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DDFD8B1E75CEB600E33883 /* Debug */,
+				76DDFD8C1E75CEB600E33883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DDFD8D1E75CEB600E33883 /* Build configuration list for PBXNativeTarget "MMAD Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DDFD8E1E75CEB600E33883 /* Debug */,
+				76DDFD8F1E75CEB600E33883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76DDFD821E75CEB600E33883 /* MMAD_Intro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76DDFD831E75CEB600E33883 /* MMAD_Intro.xcdatamodel */,
+			);
+			currentVersion = 76DDFD831E75CEB600E33883 /* MMAD_Intro.xcdatamodel */;
+			path = MMAD_Intro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76DDFD701E75CEB600E33883 /* Project object */;
+}
